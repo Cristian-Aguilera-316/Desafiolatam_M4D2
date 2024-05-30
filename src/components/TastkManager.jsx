@@ -3,11 +3,11 @@ import TaskForm from './TaskForm'
 import  TaskList from './TaskList'
 
 function TastkManager() {
-    
+
     const [tasks, setTasks] = useState([]);
     const addTask = (task) =>(
         setTasks([...tasks, taks])
-    )                                        
+    )
 
     return (
         <div>
